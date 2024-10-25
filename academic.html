@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Portfólio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="portifolio">
+      <header class="portifolio__header">
+        <div class="portifolio__highlight__wrapper">
+          <div class="portifolio__highlight">
+            <a id="home" href="index.html">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                x-bind:width="24"
+                x-bind:height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                x-bind:stroke-width="stroke"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                width="24"
+                height="24"
+                stroke-width="2"
+              >
+                <path
+                  d="M12 15v3.586a1 1 0 0 1 -1.707 .707l-6.586 -6.586a1 1 0 0 1 0 -1.414l6.586 -6.586a1 1 0 0 1 1.707 .707v3.586h6v6h-6z"
+                ></path>
+                <path d="M21 15v-6"></path>
+              </svg>
+            </a>
+          </div>
+          Back
+        </div>
+        <div class="portifolio__concat">
+          <img src="assets/academic.png" loading="lazy" alt="academic" />
+        </div>
+        <div class="portifolio__highlight__wrapper">
+          <div class="portifolio__highlight">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon icon-tabler icon-tabler-at hide-svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path d="M12 12m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
+              <path d="M16 12v1.5a2.5 2.5 0 0 0 5 0v-1.5a9 9 0 1 0 -5.5 8.28" />
+            </svg>
+          </div>
+        </div>
+      </header>
+      <main>
+        <div class="portifolio__name">
+          <h3>Academic Training</h3>
+        </div>
+        <ul class="content-links">
+          <!-- Uni BH -->
+          <li>
+            <a href="#uniBH">
+              <img
+                src="assets/unibh_oficial_logo.jpeg"
+                loading="lazy"
+                alt="unibh"
+                class="card__img"
+              />
+              <section class="upcoming-cards">
+                <div class="container">
+                  <div class="cards-wrapper">
+                    <div class="card">
+                      <h4 class="card__point">
+                        Belo Horizonte University Center
+                      </h4>
+                      <span class="card__duration">3 years</span>
+                      <br />
+                      <h4 class="card__point">Module:</h4>
+                      <p class="card__module">
+                        Information Technology Management
+                      </p>
+                      <h4 class="card__point">Institution:</h4>
+                      <p class="card__institution">UniBH</p>
+                      <h4 class="card__point">Period:</h4>
+                      <p class="card__institution">2008 - 2011</p>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </a>
+          </li>
+
+          <!-- Infinity Scholl -->
+          <li>
+            <a href="#infinity">
+              <img
+                src="assets/infinity.png"
+                loading="lazy"
+                alt="infinity"
+                class="card__img"
+              />
+              <section class="upcoming-cards">
+                <div class="container">
+                  <div class="cards-wrapper">
+                    <div class="card">
+                      <h4 class="card__point">
+                        Infinity School&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </h4>
+                      <span class="card__duration">1 years</span>
+                      <br />
+                      <h4 class="card__point">Module:</h4>
+                      <p class="card__module">
+                        Full Stack Developer
+                      </p>
+                      <h4 class="card__point">Institution:</h4>
+                      <p class="card__institution">Infinity School</p>
+                      <h4 class="card__point">Period:</h4>
+                      <p class="card__institution">2024</p>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </a>
+          </li>
+        </ul>
+      </main>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
